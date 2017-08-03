@@ -1,0 +1,24 @@
+$height: 575px;
+$width: 1000px;
+$chartMarginTop: -10px;
+
+body {
+  background-color: #b7a6a3;
+  background-size: cover;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#chartContainer {
+  margin-top: $chartMarginTop;
+  height: $height;
+  width: $width;
+  background-color: white;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.links {
+  stroke: #777;
+  stroke-width: 1px
+}
