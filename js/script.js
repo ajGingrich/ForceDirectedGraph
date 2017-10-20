@@ -67,7 +67,7 @@ $.ajax({
                 .attr("height", 11)
                 .append("image")
                 .style("z-index", "10")
-                .attr("xlink:href", "https://dl.dropboxusercontent.com/u/5258675/flags.png")
+                .attr("xlink:href", "https://i.imgur.com/Ovgvxp4.png")
                 .attr("transform", "translate(" + positions[data.nodes[i].code] + ")")
                 .attr("width", 256)
                 .attr("height", 176);
